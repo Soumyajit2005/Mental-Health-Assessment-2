@@ -1,0 +1,40 @@
+/* HeroSection.css */
+
+body{
+    overflow: hidden;
+}
+
+.hero-section {
+    background-color: #47a588f0;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 0;
+    height: 100vh;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-description {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .start-button {
+    background-color: #ff5722;
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .start-button:hover {
+    background-color: #ff5722;
+    transform: scale(1.1);
+  }
+  
